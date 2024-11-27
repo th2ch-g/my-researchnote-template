@@ -1,5 +1,5 @@
 name: TODO
-description: add TODO memo
+description: Create TODO memo
 title: "input TODO title here"
 labels: ["TODO"]
 
