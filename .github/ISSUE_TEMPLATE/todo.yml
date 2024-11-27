@@ -1,0 +1,17 @@
+name: TODO
+description: add TODO memo
+title: "TODO memo"
+labels: ["TODO"]
+
+assignees:
+  - octocat
+
+body:
+  - type: textarea
+    id: todo
+    attributes:
+      label: TODO
+      description: add TODO below
+      placeholder: add TODO here
+    validations:
+      required: true
