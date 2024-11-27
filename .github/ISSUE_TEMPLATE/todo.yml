@@ -1,6 +1,6 @@
 name: TODO
 description: add TODO memo
-title: "TODO memo"
+title: "input TODO title here"
 labels: ["TODO"]
 
 assignees:
@@ -11,7 +11,7 @@ body:
     id: todo
     attributes:
       label: TODO
-      description: add TODO below
+      description: TODO description
       placeholder: add TODO here
     validations:
       required: true
