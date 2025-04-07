@@ -1,9 +1,5 @@
 # Notebook for
 
-
-## TODO
-- [ ] implement aaa
-
 ## Directories
 - .
   - scripts: handmade-scripts
