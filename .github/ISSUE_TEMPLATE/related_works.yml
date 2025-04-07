@@ -1,0 +1,17 @@
+name: RelatedWorks
+description: Create related work memo
+title: "input title here"
+labels: ["RelatedWork"]
+
+assignees:
+  - octocat
+
+body:
+  - type: textarea
+    id: related_work
+    attributes:
+      label: RelatedWork
+      description: related work description
+      placeholder: add related work memo here
+    validations:
+      required: true
