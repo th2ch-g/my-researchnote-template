@@ -13,5 +13,20 @@ body:
       label: RelatedWork
       description: related work description
       placeholder: add related work memo here
-    validations:
+    value: |
+        # Title
+
+        DOI:
+
+        ## Abstract
+
+        ## Method
+
+        ## Result
+
+        ## Discussion
+
+        ## References
+
+        validations:
       required: true
