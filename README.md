@@ -8,4 +8,4 @@
     - benchmark: benchmark for softwares
   - analysis: main working directories
   - database: database for MD trajectories, public database etc.
-  - misc: temporary direcotyres
+  - misc: temporary directories
