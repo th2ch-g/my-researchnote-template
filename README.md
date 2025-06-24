@@ -1,7 +1,7 @@
 # Notebook for XXX
 
 ## Usage
-1. make `.env` from `.env.sample`
+1. run `makers init`
 2. make script in `/scripts/analysis` or `/scripts/database`
 3. run `ln.sh`
 4. run `makers push` to push github
