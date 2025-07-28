@@ -4,7 +4,6 @@
 1. run `make init`
 2. update `.gitignore` file for every commit
 
-
 ## Directories
 - .
   - scripts: handmade-scripts
