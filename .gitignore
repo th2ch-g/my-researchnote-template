@@ -170,11 +170,3 @@ cython_debug/
 
 /misc
 !/misc/.gitkeep
-
-/database/*
-!/database/.gitkeep
-
-/analysis/*
-!/analysis/.gitkeep
-
-!/scripts/.env
