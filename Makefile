@@ -1,5 +1,5 @@
 all:
-
+	$(MAKE) push
 
 push:
 	git add -A
@@ -8,5 +8,7 @@ push:
 
 init:
 	echo "REPOS_DIR=$(PWD)" > .env
+
+
 
 .PHONY: all push init
