@@ -2,6 +2,7 @@
 
 ## Usage
 1. run `make init`
+2. create `.gitignore` file using `make create -f ../Makefile`
 2. update `.gitignore` file for every commit
 
 ## Directories

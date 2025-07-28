@@ -1,3 +1,5 @@
+MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+
 all:
 	$(MAKE) init
 	$(MAKE) push
@@ -10,4 +12,8 @@ push:
 init:
 	echo "REPOS_DIR=$(PWD)" > .env
 
-.PHONY: all push init
+create:
+	# touch .gitignore
+	cp $(MAKEFILE_DIR).gitignore .
+
+.PHONY: all push init create
