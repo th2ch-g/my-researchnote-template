@@ -1,8 +1,9 @@
 MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+TODAY := $(shell date +%Y%m%d)
 
 all:
 	$(MAKE) init
-	$(MAKE) push
+	$(MAKE) create
 
 push:
 	git add -A
@@ -10,10 +11,11 @@ push:
 	git push
 
 init:
-	echo "REPOS_DIR=$(PWD)" > .env
+	echo "BASEDIR=$(PWD)" > .env
 
 create:
-	# touch .gitignore
-	cp $(MAKEFILE_DIR).gitignore .
+	mkdir $(TODAY)
+	echo "# $(TODAY)\n" > $(TODAY)/README.md
+	cp $(MAKEFILE_DIR).gitignore $(TODAY)/
 
 .PHONY: all push init create
