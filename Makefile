@@ -21,6 +21,6 @@ init:
 create:
 	mkdir $(TODAY)
 	echo "# $(TODAY)\n" > $(TODAY)/README.md
-	cp $(MAKEFILE_DIR).gitignore $(TODAY)/
+	touch $(TODAY)/.gitignore
 
-.PHONY: all push init create
+.PHONY: all push init create release
