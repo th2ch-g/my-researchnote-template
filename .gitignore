@@ -170,3 +170,23 @@ cython_debug/
 
 /misc
 !/misc/.gitkeep
+
+
+*pdb
+*mdp
+*xtc
+*edr
+*cpt
+*gro
+*ndx
+*parm7
+*rst7
+*itp
+*top
+*tpr
+*out
+*err
+*trr
+\#*
+*npy
+
