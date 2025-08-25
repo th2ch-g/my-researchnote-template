@@ -172,7 +172,8 @@ cython_debug/
 !/misc/.gitkeep
 
 
-*pdb
+*.pdb
+*.cif
 
 # gromacs
 *.mdp
