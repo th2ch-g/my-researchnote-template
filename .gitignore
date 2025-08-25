@@ -173,20 +173,29 @@ cython_debug/
 
 
 *pdb
-*mdp
-*xtc
-*edr
-*cpt
-*gro
-*ndx
-*parm7
-*rst7
-*itp
-*top
-*tpr
+
+# gromacs
+*.mdp
+*.xtc
+*.edr
+*.cpt
+*.gro
+*.ndx
+*.itp
+*.top
+*.tpr
+*.trr
+\#*
+
+# amber
+*.parm7
+*.rst7
+*.prmtop
+*.inpcrd
+*.mdin
+*.in
+
+# shell, python
 *out
 *err
-*trr
-\#*
 *npy
-
