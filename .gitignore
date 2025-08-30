@@ -196,6 +196,12 @@ cython_debug/
 *.mdin
 *.in
 
+# gaussian
+*.chk
+*.com
+*.log
+*.gjf
+
 # shell, python
 *out
 *err
