@@ -3,7 +3,7 @@ name: related works memo
 about: add related work memo
 title: "[year] title"
 labels: 'RelatedWorks'
-assignees: 'octocat'
+assignees: 'th2ch-g'
 ---
 
 ## DOI

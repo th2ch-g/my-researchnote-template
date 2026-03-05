@@ -4,7 +4,7 @@ title: "input TODO title here"
 labels: ["TODO"]
 
 assignees:
-  - octocat
+  - th2ch-g
 
 body:
   - type: textarea

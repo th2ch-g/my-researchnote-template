@@ -3,7 +3,7 @@ name: memo
 about: add memo
 title: "title"
 labels: 'MEMO'
-assignees: 'octocat'
+assignees: 'th2ch-g'
 ---
 
 ## memo
