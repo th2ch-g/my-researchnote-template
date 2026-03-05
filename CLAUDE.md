@@ -1,6 +1,13 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## カスタムスキル（.claude/skills/）
+
+このプロジェクトには計算化学研究向けのカスタムスキルが組み込まれている:
+
+- **`/define-task`**: 計算タスクをヒアリングして `TODO.md` に記録する
+- **`/check-jobs`**: Slurmジョブを監視し異常終了時に自動再投入する（最大3回）
+
+`TODO.md` は `define-task` スキルで自動生成・管理される。
 
 ## 概要
 
@@ -11,7 +18,7 @@ MD計算・構造予測などの計算化学研究のための作業ノートテ
 ```bash
 make            # init + create を実行（新しい作業日のディレクトリを作成）
 make init       # .env に BASEDIR=<現在のPWD> を書き込む
-make create     # YYYYMMDD/ ディレクトリと README.md を作成
+make create     # YYYYMMDD/ ディレクトリと README.md を作成（同日に2回実行するとエラー）
 make push       # git add -A && commit "add" && push
 make release    # vYYYY.M.D タグを作成してプッシュ（GitHub Releaseがトリガーされる）
 ```
